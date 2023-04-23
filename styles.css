@@ -67,6 +67,8 @@ footer{
     bottom: 0px;
     background:var(--primary-color);
     padding: 1rem;
+    width: 100vw;
+    box-sizing: border-box;
 }
 
 footer h2{
@@ -78,4 +80,10 @@ footer h2{
 footer p{
     text-align: center;
     margin: 0px;
+}
+.container{
+    padding: 1rem;
+    max-width: 600px;
+    margin: 0px auto;
+    
 }
