@@ -27,6 +27,7 @@ h1 {
     padding: 1rem;
     max-width: 600px;
     margin: 0px auto;
+    /* min-height: 500px; */
 }
 
 #txt-input {
@@ -59,12 +60,11 @@ h1 {
     height: 10vh;
     width: 100%;
     display: block;
+    margin-bottom: 3rem;
     border: 1px solid var(--text-color);
 }
 
 footer{
-    position: fixed;
-    bottom: 0px;
     background:var(--primary-color);
     padding: 1rem;
     width: 100vw;
@@ -86,4 +86,11 @@ footer p{
     max-width: 600px;
     margin: 0px auto;
     
+}
+
+@media screen and (min-height:720px) {
+    footer{
+        position: fixed;
+        bottom: 0px;
+    }
 }
